@@ -44,9 +44,14 @@ p {
 
 .centered {
   width: 90%;
-  margin: auto;
-  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;    /* horizontally center items */
+  justify-content: flex-start; /* align to top */
   color: #fff;
+  height: 100%;           /* fill parent for flex alignment */
+  padding-top: 0;         /* remove extra top padding if needed */
 }
 
 .centered h1 {
