@@ -36,8 +36,7 @@ p {
   box-shadow: 2px 0 12px rgba(0,0,0,0.06);
   display: flex;
   flex-direction: column;
-  vertical-align: top;
-  align-items: middle;
+  align-items: top;
   border-top-right-radius: 24px;
   border-bottom-right-radius: 24px;
 }
@@ -46,6 +45,7 @@ p {
   width: 90%;
   margin: auto;
   text-align: center;
+  align-items: center;
   color: #fff;
 }
 
