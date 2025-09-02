@@ -119,6 +119,13 @@ p {
   margin: 0;
 }
 
+.container-image {
+  max-width: 65vw;
+  height: auto;
+  border-radius: 5px;
+  margin: auto;
+}
+
 a {
   transition: color 0.2s;
 }
