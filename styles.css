@@ -47,8 +47,8 @@ p {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center;    /* horizontally center items */
-  justify-content: flex-start; /* align to top */
+  align-items: center;
+  justify-content: flex-start; 
   color: #fff;
   height: 100%;
   padding-top: 0;
